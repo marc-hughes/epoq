@@ -1,3 +1,7 @@
+This fork fixes a bug in the original epoq package where you couldn't specify a january date using the integer format.
+`new DateWithoutTime(2024,0,10)` would fail previously.
+
+
 # Epoq
 
 ### Epoq is two classes to help tame excess precision in the Date object.
